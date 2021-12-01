@@ -122,16 +122,16 @@ h3{
 /* ----- LINKS ----- */
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #CE015C;
     text-decoration: none;
     padding: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #CE015C;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
 a:active{
-    color: #555;
+    color:#CE015C;
     border-bottom: 1px solid transparent;
 }
 
@@ -150,41 +150,41 @@ input[type=submit]{
 .btn-full:link,
 .btn-full:visited,
 input[type=submit]{
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #CE015C;
+    border: 1px solid #CE015C;
     color: #FFF;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited{
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #CE015C;
+    color: #EF9AAC;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active{
-    background-color: #cf6d17;
+    background-color: #CE015C;
 }
 
 .btn-full:hover,
 .btn-full:active{
-    border: 1px solid #cf6d17;
+    border: 1px solid #EF9AAC;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active{
-    border: 1px solid #cf6d17;
-    color: #fff;
+    border: 1px solid #CE015C;
+    color: white;
 }
 
 /* ----------------------------------- */
 /* HEADER */
 /* ----------------------------------- */
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -239,7 +239,7 @@ header{
 
 .main-nav li a:hover,
 .main-nav li a:active{
-	border-bottom: 2px solid #e67e22;
+	border-bottom: 2px solid #CE015C;
 }
 
 /*STICKY-NAV*/
@@ -339,7 +339,7 @@ header{
     width: 55px;
     text-align: center;
     padding: 5px;
-    float: left;
+    /* float: left; */
     font-size: 150%;
     margin-right: 25px;
 }
